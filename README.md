@@ -7,7 +7,7 @@ Repo này chứa nội dung từ xa cho nút giỏ hàng **Mua Fshare VIP** củ
 Ứng dụng đọc trực tiếp tệp [`fshare-vip.json`](./fshare-vip.json) qua địa chỉ raw:
 
 ```text
-https://raw.githubusercontent.com/TNB88/QuangCaoPhimRap/main/fshare-vip.json
+https://raw.githubusercontent.com/TNB88/QuangCaoPhimRap/refs/heads/main/fshare-vip.json
 ```
 
 Các trường được hỗ trợ:
@@ -19,4 +19,4 @@ Các trường được hỗ trợ:
 
 Chỉ sửa giá trị chuỗi, giữ JSON hợp lệ và không đổi tên trường. Không đưa mật khẩu, API key hoặc dữ liệu bí mật vào repo công khai này.
 
-Nếu GitHub không truy cập được hoặc JSON bị lỗi, APK tự dùng nội dung dự phòng đã đóng gói sẵn.
+APK thêm tham số chống cache vào mỗi lần đọc nên thay đổi trên nhánh `main` được nhận ngay khi GitHub đã xử lý commit. Nếu GitHub không truy cập được hoặc JSON bị lỗi, APK tự dùng nội dung dự phòng đã đóng gói sẵn.
